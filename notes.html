@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="style/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
+
+<!--jquery-->
+<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+
+<script src="http://ajax.googleapis.bootcss.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!--<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>-->
+
+<script src = controller.js></script>
+
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="projects.html">Projects</a></li>
+                    <li class="active"><a href="#">Notes</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <img id = "banner" src="img/background.png"/>
+
+    <!--<div ng-app="myApp" ng-controller="myCtrl">-->
+    <div>
+        <div id = "leftPanel" class="well well-sm myPanel">
+            <div id="accordion" >
+                <h4 data-toggle="collapse" data-target="#accordCS">
+                    C# <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                </h4>
+                <div id = "accordCS" class="collapse">
+                    <ul>
+                        <li><a onclick="selectNote('C%23/C%231Basics')">Basics</a></li>
+                        <li><a onclick="selectNote('C%23/C%232Collections')">Collecctions</a></li>
+                        <li><a onclick="selectNote('C%23/C%233LINQandLambdas')">LINQ & Lambdas</a></li>
+                        <li><a onclick="selectNote('C%23/C%234DifferedExecutionAndOverloading')">Differed Execution & Overloading</a></li>
+                        <li><a onclick="selectNote('C%23/C%235Inheretence')">Inheretence</a></li>
+                        <li><a onclick="selectNote('C%23/C%236Generics')">Generics</a></li>
+                        <li><a onclick="selectNote('C%23/C%237FilesAndStreams')">Files & Streams</a></li>
+                        <li><a onclick="selectNote('C%23/C%238Threads')">Threads</a></li>
+                    </ul>
+                </div>
+                <h4 data-toggle="collapse" data-target="#accordDS">
+                    Data Structures <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                </h4>
+                <div id = "accordDS" class="collapse in">
+                    <ul>
+                        <li><a onclick="selectNote('DataStructures/DS1StacksQueues')">Stacks and Queues</a></li>
+                        <li><a onclick="selectNote('DataStructures/DS2BFS&DFS')"> BFS & DFS</a></li>
+                        <li><a onclick="selectNote('DataStructures/DS3Collections')">Collections</a></li>
+                        <li><a onclick="selectNote('DataStructures/DS4Sorting')">Sorting</a></li>
+                        <li><a onclick="selectNote('DataStructures/DS5Hashing')">Hasing</a></li>
+                    </ul>
+                </div>
+                <h4 data-toggle="collapse" data-target="#accordDB">
+                    Data Base <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                </h4>
+                <div id="accordDB" class="collapse">
+                    <ul>
+                        <li><a onclick="selectNote('DB/DB1')">Basics</a></li>
+                        <li><a onclick="selectNote('DB/DB2')">Data Modeling</a></li>
+                        <li><a onclick="selectNote('DB/DB3')">Relational Algebra</a></li>
+                        <li><a onclick="selectNote('DB/DB4')">Entity Relationship Model</a></li>
+                        <li><a onclick="selectNote('DB/DB5')">Enhanced ERD</a></li>
+                        <li><a onclick="selectNote('DB/DB6&7')">Normalization</a></li>
+                        <li><a onclick="selectNote('DB/DB8&9')">SQL basics</a></li>
+                        <li><a onclick="selectNote('DB/DB10')">Joins</a></li>
+                        <li><a onclick="selectNote('DB/DB11')">Transact SQL</a></li>
+                        <li><a onclick="selectNote('DB/DB12')">NOSQL</a></li>
+                        <li><a onclick="selectNote('DB/DB13')">Dynamic SQL</a></li>
+                        <li><a onclick="selectNote('DB/DB14')">Performance</a></li>
+                        <li><a onclick="selectNote('DB/DB15')">Indexing</a></li>
+                    </ul>
+                </div>
+                <h4 data-toggle="collapse" data-target="#accordMath">
+                    Math For CS <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                </h4>
+                <div id="accordMath" class="collapse">
+                    <ul>
+                        <li><a onclick="selectNote('Math/Math1Sets')">Sets</a></li>
+                        <li><a onclick="selectNote('Math/Math2Logic')">Logic</a></li>
+                        <li><a onclick="selectNote('Math/Math3PredicatesAndQuantifiers')">Predicates & Quantifiers</a></li>
+                        <li><a onclick="selectNote('Math/Math4Sequences')">Sequences</a></li>
+                        <li><a onclick="selectNote('Math/Math5SetTheory')">Set Theory</a></li>
+                        <li><a onclick="selectNote('Math/Math6Functions')">Functions</a></li>
+                        <li><a onclick="selectNote('Math/Math7Relations')">Relations</a></li>
+                        <li><a onclick="selectNote('Math/Math8Probability')">Probability</a></li>
+                        <li><a onclick="selectNote('Math/Math9FiniteStateAutomata')">Finite State Automata</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id = "rightPanel" class="well well-sm myPanel">
+            <div class="padLeft">
+                <img id = "profilePic" src="img/linkedIn%20Pic.jpg">
+
+                <h4>Yonah Karp</h4>
+                <p>Status: Available for hire</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> phone: (5l6) <span hidden>xyz</span>428 <span hidden> zyx</span>4526 </p>
+                <p><a class="mail" href="mailto:karp.yoni@mybadmail.gmail.com"> <i class="fa fa-envelope-o" aria-hidden="true"></i> email me  </a></p>
+                <p><a href="https://github.com/YonahKarp"> <i class="fa fa-github" aria-hidden="true"> </i>   GitHub</a></p>
+                <p><a href="https://www.linkedin.com/in/yonah-karp/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>   LinkedIn</a></p>
+                <p><a href="https://stackoverflow.com/users/5202215/yonah-karp"><i class="fa fa-stack-overflow" aria-hidden="true"> </i>   StackoverFlow</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div id="midHolder" class="well">
+            <h3 id="noteTitle">Sorting</h3>
+            <img id="note" src="img/notes/DataStructures/DS4Sorting.png">
+        </div>
+
+
+</body>
+</html>
