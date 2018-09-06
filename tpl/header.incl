@@ -1,0 +1,18 @@
+<div id="header" class="header2">
+    <div class="links">
+        <ul>
+            <li><a class="unStyle" href ="./projects.html">Projects</a></li><li>
+                <a class="unStyle" href ="./notes.html">Notes</a></li><li>
+                <a class="unStyle" href ="./about.html">About</a></li>
+        </ul>
+
+        <div id="menu">
+            <span class="l1"></span>
+            <span class="l2"></span>
+            <span class="l3"></span>
+        </div>
+    </div>
+    <a href="./projects.html"><img class="logo" src = "./img/logo.png" alt=""/></a>
+</div>
+
+<div id="banner"></div>

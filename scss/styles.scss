@@ -1,0 +1,186 @@
+@import "./baseStyles";
+@import "./constants";
+@import "./header";
+
+
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+
+    // padding-top: 50px;
+    background: url("../img/bg2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.well{
+    margin: 15px;
+    background: #f0f0f0;
+    padding: 4%;
+    border-radius: 6px;
+    
+    &-sm{
+        padding: 2%;
+    }
+}
+
+
+h4{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+h5{
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+
+
+
+#banner{
+    background: url("../img/background.png") center center/cover no-repeat;
+    
+    height: 100px;
+    width: 100%;
+}
+
+#profilePic{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 50vw;
+    border-color: dimgray;
+    border-width: .2em;
+    border-style: solid;
+}
+
+.myPanel{
+ 
+    position: fixed;
+    top: 100px;
+
+}
+
+#leftPanel{
+    margin: 1em 0 0 1%;
+    width: 20%;
+    float: left;
+}
+
+
+#rightPanel{
+
+    margin: 1em 0 0 0;
+    width: 20%;
+    right: 1%;
+    float: right;
+    
+    .fa{font-size: x-large;}
+}
+
+.fixedPos{
+    position: fixed;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#note{
+    width: 100%;
+}
+
+#midHolder{
+    margin-top: 1em;
+    margin-left: 22%;
+    margin-right: 22%;
+
+    h3{
+        margin: 5px;
+        font-size: 24pt;
+    }
+}
+
+.padLeft{
+    margin-left: 2em;
+}
+
+.screenShot{
+    width: 25%;
+}
+
+
+.accord{
+    margin: 5px 0;
+
+    &::after{
+        content: "▼";
+        display: inline-block;
+        font-size: 18px;
+        vertical-align: bottom;
+        margin-top: -10px;
+        transition: transform .2s;
+    }
+
+    &.expand:after{transform: rotate(180deg);}
+    &.expand + .accordContent{max-height: 350px;}
+
+}
+.accordContent{
+    max-height: 0.1px;
+    overflow: hidden;
+    transition: max-height .7s;
+}
+.accordContent, .projects{
+
+    ul{
+        list-style: none;
+        margin: 0 0 0 5px;
+        padding: 0;
+        @extend %fontSm;
+
+        li{
+            border-bottom: #ccc 1px solid;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 740px) {
+    #rightPanel{
+        position: relative;
+        float: none;
+        top: 0;
+        margin: 5% auto;
+        width: 90%;
+        
+        .fa{font-size: x-large;}
+    }
+
+    #midHolder{
+        margin-right: 5%;
+        padding: 0;
+
+        h3{
+            padding: 5px; 
+            font-size: 20pt;
+
+        }
+    }
+
+    .accord{
+        margin: 3px 0;
+        font-size: 12px;
+
+        &:after{
+            font-size: 12px;
+        }
+    }
+}

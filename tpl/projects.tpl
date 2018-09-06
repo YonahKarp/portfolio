@@ -1,46 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
-        <meta charset="utf-8">
-        
-        <meta name="description" content="Yonah Karp is a software/mobile developer from Far Rockaway, NY. Genuinley enjoys programing, is a hard worker, fast learner, capable and persistant problem solver, can synthesize new information efficiently. Great teamwork and communication skills. Detail oriented with an eye for clean design.">
-        <meta name="keywords" content="Yonah,Yoni,Karp,Resume,Portfolio,Mobile,software,developer,Java,C#,JavaScript,Swift,Android,Touro,LAS,GPA">
-        <meta name="author" content="Yonah Karp">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <title>Yonah Karp | Portfolio - About</title>
-        
-        <link rel="stylesheet" href="style/font-awesome.min.css">
-        
-        <!--jquery-->
-        <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
-        <script src = controller.js></script>
-        
-    </head>
+    @include head.incl
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 
 <body>
-    <div id="header" class="header2">
-        <div class="links">
-            <ul>
-                <li><a class="unStyle" href ="./projects.html">Projects</a></li><li>
-                    <a class="unStyle" href ="./notes.html">Notes</a></li><li>
-                    <a class="unStyle" href ="./about.html">About</a></li>
-            </ul>
-    
-            <div id="menu">
-                <span class="l1"></span>
-                <span class="l2"></span>
-                <span class="l3"></span>
-            </div>
-        </div>
-        <a href="./projects.html"><img class="logo" src = "./img/logo.png" alt=""/></a>
-    </div>
-    
-    <div id="banner"></div>
+    @include header.incl
     <div>
         <div id="leftPanel" class="well well-sm myPanel projects">
             <div>
@@ -485,17 +452,7 @@
         </ul>
     </div>
 
-    <div id="rightPanel" class="well well-sm myPanel">
-        <img id="profilePic" src="img/linkedIn%20Pic.jpg">
-    
-        <h4>Yonah Karp</h4>
-        <p>Status: JavaScript Developer - B&H</p>
-        <p><i class="fa fa-phone" aria-hidden="true"></i> phone: (5l6) <span hidden>xyz</span>428 <span hidden> zyx</span>4526 </p>
-        <p><a class="mail" href="mailto:karp.yoni@mybadmail.gmail.com"> <i class="fa fa-envelope-o" aria-hidden="true"></i> email me  </a></p>
-        <p><a href="https://github.com/YonahKarp"> <i class="fa fa-github" aria-hidden="true"> </i> GitHub</a></p>
-        <p><a href="https://www.linkedin.com/in/yonah-karp/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></p>
-        <p><a href="https://stackoverflow.com/users/5202215/yonah-karp"><i class="fa fa-stack-overflow" aria-hidden="true"> </i> StackoverFlow</a></p>
-    </div>
+    @include rightPanel.incl
 
 </body>
 </html>
