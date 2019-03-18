@@ -1,0 +1,41 @@
+ul, li {
+  color: white; }
+
+.container {
+  background: linear-gradient(dimgrey, lightgrey, dimgrey);
+  padding: 30px;
+  margin: 15px;
+  position: relative; }
+  .container .midline {
+    background: black;
+    position: absolute;
+    top: calc(50% - 15px);
+    height: 4px;
+    width: calc(100% - 60px); }
+  .container .headTitle {
+    position: absolute;
+    left: 15px; }
+
+#timeline li:nth-child(odd) {
+  position: relative;
+  top: 50%; }
+
+.eventContainer {
+  min-width: 280px;
+  width: 50vw;
+  height: 600px; }
+  .eventContainer .event {
+    border: solid 3px black;
+    padding: 15px;
+    height: 50%; }
+    .eventContainer .event .backgroundOverlay {
+      margin: -15px;
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.5);
+      height: calc(100% + 30px); }
+    .eventContainer .event#ccny {
+      background: purple; }
+    .eventContainer .event#touro {
+      background: darkblue; }
+    .eventContainer .event#pacman {
+      background: url("https://lh3.googleusercontent.com/b37UdneTK4S3RhBhOlcTWo93XljrWoybFQTPfScz5qSooF_Yy6bbi2B79KBBsFaTbgc=w300"); }

@@ -48,6 +48,49 @@
     </div>
 
     <div id="midHolder" class="well">
+
+        <h1>Web Projects</h1>
+        <ul>        
+            <li id="artWeb">
+                <h3 class="projTitle"><em>Forever Engraved</em>
+                    <span style="font-size: small">
+                            code on
+                            <a href="https://github.com/YonahKarp/foreverEngraved">
+                                github <i class="fa fa-github" aria-disabled="true"></i>
+                            </a>
+                            avaiable
+                            <a href="https://yonahkarp.github.io/foreverEngraved/Holocaust.html">
+                                online
+                            </a>
+                        </span>
+                </h3>
+                <h4><u>Description:</u></h4>
+                <p>
+                    An art profile website I created for my mother's stone sculptures
+                </p>
+                <img style="width: 60%; margin: 0 1em 1em 0" src="img/artWeb.png">
+                <h4><u>Technologies used:</u></h4>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                </ul>
+            </li>
+            <hr style="background-color: dimgray; height: 0.2em">
+            <li id="website">
+                <h3 class="projTitle"><em>This Website</em>
+                    <span style="font-size: small">
+                            code on
+                            <a href="https://github.com/YonahKarp/portfolio">
+                                github <i class="fa fa-github" aria-disabled="true"></i>
+                            </a>
+                        </span>
+                </h3>
+            </li>
+
+        </ul>
+
+        <hr style="background-color: dimgray; height: 0.2em">
+
         <h1>Mobile Projects</h1>
         <ul>
             <li id="soundaries">
@@ -406,51 +449,7 @@
             </li>
         </ul>
 
-        <hr style="background-color: dimgray; height: 0.2em">
-
-        <h1>JavaScript Projects</h1>
-        <ul>        
-            <li id="artWeb">
-                <h3 class="projTitle"><em>Art Profile Website</em>
-                    <span style="font-size: small">
-                            code on
-                            <a href="https://github.com/YonahKarp/foreverEngraved">
-                                github <i class="fa fa-github" aria-disabled="true"></i>
-                            </a>
-                            avaiable
-                            <a href="https://yonahkarp.github.io/foreverEngraved/Holocaust.html">
-                                online
-                            </a>
-                        </span>
-                </h3>
-                <h4><u>Description:</u></h4>
-                <p>
-                    An art profile website I created for my mother's stone sculptures
-                </p>
-                <img style="width: 60%; margin: 0 1em 1em 0" src="img/artWeb.png">
-                <h4><u>Technologies used:</u></h4>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                </ul>
-
-
-
-            </li>
-            <hr style="background-color: dimgray; height: 0.2em">
-            <li id="website">
-                <h3 class="projTitle"><em>This Website</em>
-                    <span style="font-size: small">
-                            code on
-                            <a href="https://github.com/YonahKarp/portfolio">
-                                github <i class="fa fa-github" aria-disabled="true"></i>
-                            </a>
-                        </span>
-                </h3>
-            </li>
-
-        </ul>
-    </div>
+     </div>
 
     @include rightPanel.incl
 
