@@ -1,0 +1,170 @@
+{
+  "main": {
+    "name": "Yonah Karp",
+    "occupation": "Software Developer",
+    "description": "I have Master's Degree in CS with specialization in AI/ML. I have experience along the full stack, from Frontend libraries, including React and Angular, to backend including node/express, Java and more",
+    "image": "profilepic.png",
+    "bio": "Software Developer with 6+ years professional experience. Genuinely enjoys programming, hard worker, fast and avid learner, capable and persistent problem solver, can synthesize information efficiently. Great teamwork and communication skills. Detail oriented with an eye for clean design.",
+    "contactmessage1": "Want to Schedule an interview?",
+    "contactmessage2": "View availability below and connect",
+    "email": "karp.yoni@gmail.com",
+    "phone": "516-428-4526",
+    "address": {
+      "city": "New York"
+    },
+    "website": "http://www.yonahkarp.com",
+    "resumedownload": "/Resume.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/yonah-karp/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/YonahKarp",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Georgia Institute of Technology",
+        "degree": "Master of Computer Science",
+        "graduated": "July 2022",
+        "description": "Specialization in Machine Learning"
+      },
+      {
+        "school": "Touro College of Arts & Scienes",
+        "degree": "Bachelor of Computer Science",
+        "graduated": "June 2017"
+      }
+    ],
+    "work": [
+      {
+        "company": "Machine Learning Engineer",
+        "title": "American Express, New York, NY",
+        "years": "March 2022 - Present",
+        "description": ["Developed infrastructure and models for AiDa, the company's internal ML platform",
+          "Handled development, devops, and QA tasks in a fast paced, multi- time zone team",
+          "Configured, tested, and deployed Docker containers for ML services such as invoice, reciept, and bank statement recognition",
+          "Benchmarked and balanced load of services"
+        ]
+      },
+      {
+        "company": "Full Stack Web Developer",
+        "title": "American Express, New York, NY",
+        "years": "July 2019 - March 2022",
+        "description": ["Developed improvements to frontend, middleware and backend of two credit card application web apps in a Scrum team of six",
+          "Finalist (2nd place) in internal Company-wide Hackathon.",
+          "Built out automation and unit test suite for React web app.",
+          "Served as rotating Scrum Master, running team meetings and helping clear blockers"
+        ]
+      },
+      {
+        "company": "Frontend Web Developer",
+        "title": "B&H Photo, New York, NY",
+        "years": "August 2017 - July 2019",
+        "description": ["Collaborated on frontend development of Single Page Application in a team of 4 developers",
+          "Led team statistically, completing over 50% of team's 2018 workload in assigned hours and tasks.",
+          "Worked closely with Google as B&H's primary AMP developer, cutting page-load by over 75%.",
+          "Implemented service worker for offline access & faster page transitions.",
+          "Built 3 new pages and multiple JS components for the mobile website."
+        ]
+      },
+      {
+        "company": "Software Developer",
+        "title": "Breta, New York, NY",
+        "years": "December 2016 - August 2017",
+        "description": ["Created full-featured Ionic (Angular) mobile app as company's only dev.",
+          "Produced and maintained project's joint SQL/SQLite database.",
+          "Worked closely with designer and client in agile development paradigm"
+        ]
+      },
+      {
+        "company": "Software Developer",
+        "title": "Smartmūv, New York, NY",
+        "years": "Jun 2016 - January 2017",
+        "description": ["Finished development and deployed native Android application."]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
