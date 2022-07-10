@@ -23,7 +23,8 @@
 }
 .bg .aur_cont {
   margin: -65px auto 0;
-  display: table;
+  display: flex;
+  justify-content: center;
   height: auto;
 }
 .bg .aur_cont .aur {
@@ -171,24 +172,5 @@
 
   75%{
     transform: translatey(100px) rotate(10deg);
-  }
-}
-@keyframes northern {
-  0% {
-    transform: translate(15%, -12%);
-  }
-  25% {
-    transform: translate(20%, 17%);
-  }
-  40% {
-  }
-  60% {
-    transform: translate(17%, -12%);
-  }
-  85% {
-    transform: translate(16%, 13%) rotate(120deg);
-  }
-  100% {
-    transform: none;
   }
 }
