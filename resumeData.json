@@ -13,7 +13,7 @@
       "city": "New York"
     },
     "website": "http://www.yonahkarp.com",
-    "resumedownload": "/Resume.pdf",
+    "resumedownload": "/resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -158,12 +158,12 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
+        "text": "Yonah is an intelligent and creative individual with the motivation to get things done. His knowledge and vast understanding of fields relating to software development helped us in achieving our high level goals. If you're lucky enough to have the opportunity to work with him, grab him - as he's a valuable asset to any company.",
+        "user": "Elliot Scharcz - CEO of an E-Commerce Company"
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "Yonah was a student in a number of my computer science courses at Touro College and his performance consistently placed him among the top students in the class. He is intelligent and ambitious and his questions in class reflect a keen eye for detail. I am confident that he has a promising career ahead of him and I would be happy to answer specific questions for anyone who is considering him.",
+        "user": "Yitzchak Novick - Professor at Touro College"
       }
     ]
   }
