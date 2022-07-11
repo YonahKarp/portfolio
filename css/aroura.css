@@ -164,13 +164,13 @@
   }
 
   25%{
-    transform: translatey(100px) rotate(10deg);
+    transform: translatey(100px) rotate(10deg) translatex(30px);
   }
   50% {
-    transform: translatey(200px) rotate(-10deg);
+    transform: translatey(200px) rotate(-10deg) 
   }
 
   75%{
-    transform: translatey(100px) rotate(10deg);
+    transform: translatey(100px) rotate(10deg) translatex(-30px);
   }
 }
