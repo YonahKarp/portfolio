@@ -263,6 +263,12 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
+#resume img.logo{
+   height: 30px;
+   vertical-align: middle;
+   margin-right: 10px;
+}
+
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
@@ -271,7 +277,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 18px;
+   margin-bottom: 5px;
    margin-top: 9px;
 }
 #resume .info span {
@@ -291,12 +297,30 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+
+.skillsHolder{
+ clear: both;
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(max(275px, 100%/3), 1fr));
+ row-gap: 20px;
+column-gap: 20px;
+}
+
+.short{
+   width: 0;
+}
+
 .bars {
 	width: 95%;
 	float: left;
 	padding: 0;
 	text-align: left;
+   transition: width 5s;
 }
+
+
+
+
 .bars .skills {
   	margin-top: 36px;
    list-style: none;
@@ -304,9 +328,14 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
+  	background: linear-gradient(90deg, #62ACA5, #9DDEDA);
+  	height: 20px;
+  	border-radius: 5px;
+   list-style: none;
+}
+
+.bars h3{
+   margin-bottom: 46px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -317,106 +346,30 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
 	top: -36px;
 }
+
+.bars li em img{
+   display: inline;
+   height: 24px;
+   margin: -4px 4px;
+}
 .bar-expand {
    position: absolute;
-   left: 0;
+   right: 0;
    top: 0;
-
+   background-color: #ccc;
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
-}
-/*
-.git {
-  	-moz-animation: git 2s ease;
-  	-webkit-animation: git 2s ease;
-}
-.illustrator {
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.reactjs {
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
-}
-.css {
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.vuejs {
-  	-moz-animation: vuejs 2s ease;
-  	-webkit-animation: vuejs 2s ease;
-}
-.mongodb {
-  	-moz-animation: mongodb 2s ease;
-  	-webkit-animation: mongodb 2s ease;
+  	height: 20px;
+   line-height: 20px;
+   border-radius: 0 5px 5px 0;
+   animation: animate-bar 3.5s;
 }
 
-@-moz-keyframes git {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+@keyframes animate-bar {
+   0%{width: 100% }
+   100%{width: var(--barWidth)}
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}  */
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section

@@ -28,18 +28,20 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Below are some of the many technologies I use frequently and throughout my career",
     "education": [
       {
         "school": "Georgia Institute of Technology",
         "degree": "Master of Computer Science",
         "graduated": "July 2022",
-        "description": "Specialization in Machine Learning"
+        "description": "Specialization in Machine Learning",
+        "image": "GT.png"
       },
       {
         "school": "Touro College of Arts & Scienes",
         "degree": "Bachelor of Computer Science",
-        "graduated": "June 2017"
+        "graduated": "June 2017",
+        "image": "Touro.png"
       }
     ],
     "work": [
@@ -51,7 +53,8 @@
           "Handled development, devops, and QA tasks in a fast paced, multi- time zone team",
           "Configured, tested, and deployed Docker containers for ML services such as invoice, reciept, and bank statement recognition",
           "Benchmarked and balanced load of services"
-        ]
+        ],
+        "image": "amex.png"
       },
       {
         "company": "Full Stack Web Developer",
@@ -61,7 +64,8 @@
           "Finalist (2nd place) in internal Company-wide Hackathon.",
           "Built out automation and unit test suite for React web app.",
           "Served as rotating Scrum Master, running team meetings and helping clear blockers"
-        ]
+        ],
+        "image": "amex.png"
       },
       {
         "company": "Frontend Web Developer",
@@ -72,7 +76,8 @@
           "Worked closely with Google as B&H's primary AMP developer, cutting page-load by over 75%.",
           "Implemented service worker for offline access & faster page transitions.",
           "Built 3 new pages and multiple JS components for the mobile website."
-        ]
+        ],
+        "image": "BandH.png"
       },
       {
         "company": "Software Developer",
@@ -81,45 +86,90 @@
         "description": ["Created full-featured Ionic (Angular) mobile app as company's only dev.",
           "Produced and maintained project's joint SQL/SQLite database.",
           "Worked closely with designer and client in agile development paradigm"
-        ]
+        ],
+        "image": "Breta.jpg"
       },
       {
         "company": "Software Developer",
         "title": "Smartmūv, New York, NY",
         "years": "Jun 2016 - January 2017",
-        "description": ["Finished development and deployed native Android application."]
+        "description": ["Finished development and deployed native Android application."],
+        "image": "smartmuv.png"
       }
     ],
     "skills": [
-      {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
-      }
-    ]
+    {
+      "type": "Programming Languanges",
+      "list": [
+        {
+          "name": "Javascript",
+          "level": 90,
+          "icon": "javascript.png"
+        },
+        {
+          "name": "Python",
+          "level": 70,
+          "icon": "python.png"
+        },
+        {
+          "name": "HTML",
+          "level": 90,
+          "icon": "html.png"
+        },
+        {
+          "name": "CSS/SCSS",
+          "level": 95,
+          "icon": "scss.png"
+        },
+        {
+          "name": "Java",
+          "level": 50,
+          "icon": "java.png"
+        },
+        {
+          "name": "SQL",
+          "level": 70,
+          "icon": "sql.png"
+        }
+      ]
+    },{
+      "type": "Web Technologies",
+      "list": [
+        {
+          "name": "React",
+          "level": 90,
+          "icon": "react.png"
+        },
+       
+        {
+          "name": "Angular",
+          "level": 60,
+          "icon": "angular.png"
+        },
+        {
+          "name": "Node/Express",
+          "level": 75,
+          "icon": "node.png"
+        },
+        {
+          "name": "Spring Boot",
+          "level": 45,
+          "icon": "spring.png"
+        },
+        {
+          "name": "React Native",
+          "level": 75,
+          "icon": "rn.png"
+        },
+        
+
+        {
+          "name": "REST APIs",
+          "level": 85
+        }
+      ]
+  }
+  ]
   },
   "portfolio": {
     "projects": [
