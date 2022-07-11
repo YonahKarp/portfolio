@@ -24,6 +24,10 @@
 
 body { background: #0f0f0f; }
 
+.perspective{
+   perspective: 800px;
+}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -261,7 +265,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+/* #resume .main-col { padding-right: 10%; } */
 
 #resume img.logo{
    height: 30px;
@@ -274,6 +278,45 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+
+
+.workItem, .educationItem{
+   background-color: #eee;
+   padding: 30px;
+   margin-bottom: 35px;
+   border-radius: 15px;
+   box-shadow: -10px 0px 10px 0 rgba(0, 0, 0, .2);
+
+   /* transition: transform 1s, box-shadow 1s; */
+   will-change: transform;
+}
+
+.workItem.anim, .educationItem.anim{
+   animation: animate-resume 1s;
+
+}
+
+/* .workItem.anim:hover, .educationItem.anim:hover{
+   transform: rotateY(20deg);
+   box-shadow: -10px -10px 10px 0 rgba(0, 0, 0, .2);
+
+
+} */
+
+
+@keyframes animate-resume{
+   0%{
+      opacity: 0; 
+      transform: translateX(150px) rotateY(90deg);
+   }
+   100%{
+      opacity: 1;
+      transform: translateY(0) rotateY(0deg);
+
+   }
+}
+
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -363,6 +406,9 @@ column-gap: 20px;
   	height: 20px;
    line-height: 20px;
    border-radius: 0 5px 5px 0;
+}
+
+.bar-expand.anim{
    animation: animate-bar 3.5s;
 }
 
