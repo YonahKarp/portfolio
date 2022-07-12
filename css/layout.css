@@ -516,7 +516,7 @@ column-gap: 20px;
 
    #portfolio h1{margin-bottom: 80px;}
 
-   .portfolio-item .item-wrap:hover{
+   .portfolio-item .item-wrap:hover, .portfolio-item .item-wrap:active{
       transform: rotateY(0deg) translateY(-80px);
       margin:  100px min(60px, 10vw) 0;
       transition: all 0.3s ease-in-out;
