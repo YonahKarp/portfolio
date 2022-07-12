@@ -33,14 +33,18 @@
       {
         "school": "Georgia Institute of Technology",
         "degree": "Master of Computer Science",
-        "graduated": "July 2022",
+        "graduated": "September 2020 - July 2022",
+        "gpa": "3.70",
+
         "description": "Specialization in Machine Learning",
         "image": "GT.png"
       },
       {
         "school": "Touro College of Arts & Scienes",
         "degree": "Bachelor of Computer Science",
-        "graduated": "June 2017",
+        "graduated": "September 2012 - June 2017",
+        "gpa": "3.95",
+
         "image": "Touro.png"
       }
     ],
@@ -152,17 +156,15 @@
           "icon": "node.png"
         },
         {
-          "name": "Spring Boot",
-          "level": 45,
-          "icon": "spring.png"
-        },
-        {
           "name": "React Native",
           "level": 75,
           "icon": "rn.png"
         },
-        
-
+        {
+          "name": "Spring Boot",
+          "level": 45,
+          "icon": "spring.png"
+        },
         {
           "name": "REST APIs",
           "level": 85
@@ -174,35 +176,45 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Relaxful",
+        "category": "An e-commerce shop I built for a client to sell pillows",
+        "image": "relaxful.png",
+        "url": "http://berelaxful.com/"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "un-Kinect",
+        "category": "A kinect like movement system for controlling games using webcam and body motion",
+        "image": "unkinect.png",
+        "github": "https://github.com/YonahKarp/pyMove"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "React Weather",
+        "category": "A nice weather application built in React using the Dark Sky api",
+        "image": "weather.png",
+        "url": "https://yonahkarp.github.io/React-Weather/",
+        "github": "https://github.com/YonahKarp/React-Weather"
+      },{
+        "title": "Portfolio",
+        "category": "This website!",
+        "image": "portfolio.png",
+        "github": "https://github.com/YonahKarp/portfolio"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "ClasStars website",
+        "category": "A website I built for a client to pitch an education app.",
+        "image": "classStars.png",
+        "url": "https://yonahkarp.github.io/ClassAct/"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Smartspeedr",
+        "category": " Chrome extension providing overcast-like smart speed for web media. This speeds up silence.",
+        "image": "smartspeedr.png",
+        "url": "https://chrome.google.com/webstore/detail/smartspeedr/kifdifbjpepmmjaokengbdjddbofpfmc",
+        "github": "https://github.com/YonahKarp/smartspeedr"
+
       }
+      
+      
     ]
   },
   "testimonials": {
