@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Aroura from './Aroura';
+import '../scss/Header.scss'
 
 class Header extends Component {
   render() {
@@ -27,7 +28,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
 
-            {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
+            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
             <li><a className="smoothscroll" href="#contact">Schedule</a></li>
          </ul>

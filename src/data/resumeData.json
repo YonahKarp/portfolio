@@ -179,7 +179,7 @@
         "title": "Relaxful",
         "category": "An e-commerce shop I built for a client to sell pillows",
         "image": "relaxful.png",
-        "url": "http://berelaxful.com/"
+        "url": "https://yonahkarp.github.io/Relaxful-copy/"
       },
       {
         "title": "un-Kinect",
@@ -200,14 +200,15 @@
         "github": "https://github.com/YonahKarp/portfolio"
       },
       {
-        "title": "ClasStars website",
-        "category": "A website I built for a client to pitch an education app.",
-        "image": "classStars.png",
-        "url": "https://yonahkarp.github.io/ClassAct/"
+        "title": "Hex Guess",
+        "category": "A react app to test how well you can identify the hex of a color",
+        "image": "hexGuess.png",
+        "url": "https://yonahkarp.github.io/HexGuess/",
+        "github": "https://github.com/YonahKarp/HexGuess"
       },
       {
         "title": "Smartspeedr",
-        "category": " Chrome extension providing overcast-like smart speed for web media. This speeds up silence.",
+        "category": " Chrome extension providing overcast-like smartspeed to speed up silences.",
         "image": "smartspeedr.png",
         "url": "https://chrome.google.com/webstore/detail/smartspeedr/kifdifbjpepmmjaokengbdjddbofpfmc",
         "github": "https://github.com/YonahKarp/smartspeedr"

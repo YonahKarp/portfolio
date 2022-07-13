@@ -516,10 +516,13 @@ column-gap: 20px;
 
    #portfolio h1{margin-bottom: 80px;}
 
-   .portfolio-item .item-wrap:hover{
+
+   .portfolio-item .item-wrap:hover, .portfolio-item .item-wrap:focus, .portfolio-item .item-wrap:active{
       transform: rotateY(0deg) translateY(-80px);
       margin:  100px min(60px, 10vw) 0;
       transition: all 0.3s ease-in-out;
+
+     
    }
 }
 
@@ -534,10 +537,9 @@ column-gap: 20px;
    .portfolio-item .item-wrap {
       transform: rotateY(50deg);
       margin: 0 -65px;
-      width: max(230px, min(100vw/4, 400px));
+      width: max(230px, min(100vw/5, 400px));
 
    }
-
    .portfolio-item .item-wrap:hover{
       transform: rotateY(0deg) translateX(-10px);
       margin:  0 50px;
@@ -567,7 +569,7 @@ column-gap: 20px;
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   background: url(../images/overlay-bg.png) repeat;
+   background: rgba(0, 0, 0, .4)
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
@@ -596,13 +598,13 @@ column-gap: 20px;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 26px/28px 'opensans-bold', sans-serif;
+   font: 20px/28px 'opensans-bold', sans-serif;
    margin-bottom: 10px;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 20px/24px 'opensans-light', sans-serif;
-   color: #c6c7c7;
+   font: 16px/24px 'opensans', sans-serif;
+   color: whitesmoke;
    margin-bottom: 0;
 }
 

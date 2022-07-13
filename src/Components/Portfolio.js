@@ -6,7 +6,7 @@ class Portfolio extends Component {
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects, i, arr){
         var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="portfolio-item" style={{'--zIndex': arr.length - i}}>
+        return <div key={projects.title} className="portfolio-item" style={{'--zIndex': arr.length - i}} onClick={()=>{}}>
            <div className="item-wrap">
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">

@@ -8,11 +8,11 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
-    "react-scripts": "1.0.17",
-    "node-sass": "latest"
+    "react-scripts": "1.0.17"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "sass": "^1.53.0"
   },
   "scripts": {
     "start": "react-scripts start",
