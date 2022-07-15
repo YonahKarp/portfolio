@@ -301,6 +301,18 @@ ul#nav li.current a { color: #F06000; }
    margin-right: 10px;
 }
 
+
+/* Timeline */
+#resume{
+   overflow-x: scroll;
+   /* height: 500px; */
+}
+.timeline{
+   position: -webkit-sticky; /* Safari */  
+   position: sticky;
+   top: 0
+}
+
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
@@ -314,6 +326,7 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 15px;
    border-radius: 15px;
    box-shadow: 0px -10px 6px -5px rgba(0, 0, 0, .2);
+   opacity: 0;
 
    /* transition: transform 1s, box-shadow 1s; */
    will-change: transform;
@@ -321,6 +334,7 @@ ul#nav li.current a { color: #F06000; }
 
 .workItem.anim, .educationItem.anim{
    animation: animate-resume 1s;
+   opacity: 1;
 
 }
 
@@ -368,6 +382,10 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+.skillMessage{
+   margin: 15px 0 30px;
+   font-size: 18px;
+}
 
 .skillsHolder{
  clear: both;
@@ -407,7 +425,7 @@ column-gap: 20px;
 }
 
 .bars h3{
-   margin-bottom: 46px;
+   margin-bottom: 55px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -422,7 +440,7 @@ column-gap: 20px;
 .bars li em img{
    display: inline;
    height: 24px;
-   margin: -4px 4px;
+   margin: -4px 6px -4px 0;
 }
 .bar-expand {
    position: absolute;
@@ -437,7 +455,7 @@ column-gap: 20px;
    border-radius: 0 5px 5px 0;
 }
 
-.bar-expand.anim{
+.anim .bar-expand{
    animation: animate-bar 3.5s;
 }
 
@@ -510,7 +528,11 @@ column-gap: 20px;
    cursor: pointer;
    font-size: 30px;
    margin: 0 20px;
+   color: #2ff;
 }
+
+.portfolio-item .item-wrap a:hover{color: #0aa;}
+.portfolio-item .item-wrap a:active{color: #055;}
 
 @media only screen and (max-width: 767px) {
 
