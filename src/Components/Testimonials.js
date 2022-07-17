@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import '../scss/Testimonials.scss'
+
 class Testimonials extends Component {
   render() {
 

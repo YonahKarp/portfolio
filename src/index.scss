@@ -1,1 +1,3 @@
-@import './scss/Header.scss'
+@use './scss/mediaQueries.scss';
+
+body { background: #0f0f0f; }

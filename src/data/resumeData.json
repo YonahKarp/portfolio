@@ -31,28 +31,40 @@
     "skillmessage": "Below are some of the many technologies I use frequently and throughout my career",
     "education": [
       {
+        "id": "GeorgiaTech",
         "school": "Georgia Institute of Technology",
         "degree": "Master of Computer Science",
-        "graduated": "September 2020 - July 2022",
+        "start": "September 2020",
+        "end": "July 2022",
+        "color": "#A28C3E",
         "gpa": "3.70",
+        "level": 2,
 
         "description": "Specialization in Machine Learning",
         "image": "GT.png"
       },
       {
-        "school": "Touro College of Arts & Scienes",
+        "id": "Touro",
+        "school": "Touro College of Arts & Sciences",
         "degree": "Bachelor of Computer Science",
-        "graduated": "September 2012 - June 2017",
-        "gpa": "3.95",
+        "start": "September 2012",
+        "end": "June 2017",
+        "color": "#224984",
+        "level": 2,
 
+        "gpa": "3.95",
         "image": "Touro.png"
       }
     ],
     "work": [
       {
-        "company": "Machine Learning Engineer",
-        "title": "American Express, New York, NY",
-        "years": "March 2022 - Present",
+        "id": "Amex_ML",
+        "company": "American Express",
+        "title": "Machine Learning Engineer",
+        "location": "New York, NY",
+        "start": "March 2022",
+        "end": "Present",
+        "color": "#0049A9",
         "description": ["Developed infrastructure and models for AiDa, the company's internal ML platform",
           "Handled development, devops, and QA tasks in a fast paced, multi- time zone team",
           "Configured, tested, and deployed Docker containers for ML services such as invoice, reciept, and bank statement recognition",
@@ -61,9 +73,13 @@
         "image": "amex.png"
       },
       {
-        "company": "Full Stack Web Developer",
-        "title": "American Express, New York, NY",
-        "years": "July 2019 - March 2022",
+        "id": "Amex",
+        "company": "American Express",
+        "title": "Full Stack Web Developer",
+        "location": "New York, NY",
+        "start": "July 2019",
+        "end": "March 2022",
+        "color": "#0049A9",
         "description": ["Developed improvements to frontend, middleware and backend of two credit card application web apps in a Scrum team of six",
           "Finalist (2nd place) in internal Company-wide Hackathon.",
           "Built out automation and unit test suite for React web app.",
@@ -72,9 +88,13 @@
         "image": "amex.png"
       },
       {
-        "company": "Frontend Web Developer",
-        "title": "B&H Photo, New York, NY",
-        "years": "August 2017 - July 2019",
+        "id": "B_H",
+        "company": "B&H Photo",
+        "title": "Frontend Web Developer",
+        "location": "New York, NY",
+        "start": "August 2017",
+        "end": "July 2019",
+        "color": "#008038",
         "description": ["Collaborated on frontend development of Single Page Application in a team of 4 developers",
           "Led team statistically, completing over 50% of team's 2018 workload in assigned hours and tasks.",
           "Worked closely with Google as B&H's primary AMP developer, cutting page-load by over 75%.",
@@ -84,9 +104,13 @@
         "image": "BandH.png"
       },
       {
-        "company": "Software Developer",
-        "title": "Breta, New York, NY",
-        "years": "December 2016 - August 2017",
+        "id": "Breta",
+        "company": "Breta",
+        "title": "Software Developer",
+        "location": "New York, NY",
+        "start": "December 2016",
+        "end": "August 2017",
+        "color": "#9F504D",
         "description": ["Created full-featured Ionic (Angular) mobile app as company's only dev.",
           "Produced and maintained project's joint SQL/SQLite database.",
           "Worked closely with designer and client in agile development paradigm"
@@ -94,9 +118,13 @@
         "image": "Breta.jpg"
       },
       {
-        "company": "Software Developer",
-        "title": "Smartmūv, New York, NY",
-        "years": "Jun 2016 - January 2017",
+        "id": "Smartmuv",
+        "company": "Smartmūv",
+        "title": "Software Developer",
+        "location": "New York, NY",
+        "start": "June 2016",
+        "end": "January 2017",
+        "color": "#508C34",
         "description": ["Finished development and deployed native Android application."],
         "image": "smartmuv.png"
       }
