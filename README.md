@@ -1,5 +1,5 @@
 # Resume
-My personal resume website.
+My personal resume website. https://yonahkarp.com/
 
 This website is based on https://github.com/tbakerx/react-resume-template, but has a bunch of added fun animation and features, like:
 - Aroura animation added in head section
