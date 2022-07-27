@@ -36,7 +36,7 @@
         "degree": "Master of Computer Science",
         "start": "September 2020",
         "end": "July 2022",
-        "color": "#A28C3E",
+        "color": "#D4A741",
         "gpa": "3.70",
         "level": 2,
 
@@ -49,7 +49,7 @@
         "degree": "Bachelor of Computer Science",
         "start": "September 2012",
         "end": "June 2017",
-        "color": "#224984",
+        "color": "#56668F",
         "level": 2,
 
         "gpa": "3.95",
@@ -64,7 +64,7 @@
         "location": "New York, NY",
         "start": "March 2022",
         "end": "Present",
-        "color": "#0049A9",
+        "color": "#275AA1",
         "description": ["Developed infrastructure and models for AiDa, the company's internal ML platform",
           "Handled development, devops, and QA tasks in a fast paced, multi- time zone team",
           "Configured, tested, and deployed Docker containers for ML services such as invoice, reciept, and bank statement recognition",
@@ -79,7 +79,7 @@
         "location": "New York, NY",
         "start": "July 2019",
         "end": "March 2022",
-        "color": "#0049A9",
+        "color": "#275AA1",
         "description": ["Developed improvements to frontend, middleware and backend of two credit card application web apps in a Scrum team of six",
           "Finalist (2nd place) in internal Company-wide Hackathon.",
           "Built out automation and unit test suite for React web app.",
@@ -94,7 +94,7 @@
         "location": "New York, NY",
         "start": "August 2017",
         "end": "July 2019",
-        "color": "#008038",
+        "color": "#7DB27A",
         "description": ["Collaborated on frontend development of Single Page Application in a team of 4 developers",
           "Led team statistically, completing over 50% of team's 2018 workload in assigned hours and tasks.",
           "Worked closely with Google as B&H's primary AMP developer, cutting page-load by over 75%.",
@@ -110,7 +110,7 @@
         "location": "New York, NY",
         "start": "December 2016",
         "end": "August 2017",
-        "color": "#9F504D",
+        "color": "#DC5E5F",
         "description": ["Created full-featured Ionic (Angular) mobile app as company's only dev.",
           "Produced and maintained project's joint SQL/SQLite database.",
           "Worked closely with designer and client in agile development paradigm"
@@ -124,7 +124,7 @@
         "location": "New York, NY",
         "start": "June 2016",
         "end": "January 2017",
-        "color": "#508C34",
+        "color": "#439AA2",
         "description": ["Finished development and deployed native Android application."],
         "image": "smartmuv.png"
       }
@@ -206,38 +206,38 @@
       {
         "title": "Relaxful",
         "category": "An e-commerce shop I built for a client to sell pillows",
-        "image": "relaxful.png",
+        "image": "relaxful.webp",
         "url": "https://yonahkarp.github.io/Relaxful-copy/"
       },
       {
         "title": "un-Kinect",
         "category": "A kinect like movement system for controlling games using webcam and body motion",
-        "image": "unkinect.png",
+        "image": "unkinect.webp",
         "github": "https://github.com/YonahKarp/pyMove"
       },
       {
         "title": "React Weather",
         "category": "A nice weather application built in React using the Dark Sky api",
-        "image": "weather.png",
+        "image": "weather.webp",
         "url": "https://yonahkarp.github.io/React-Weather/",
         "github": "https://github.com/YonahKarp/React-Weather"
       },{
         "title": "Portfolio",
         "category": "This website!",
-        "image": "portfolio.png",
+        "image": "portfolio.webp",
         "github": "https://github.com/YonahKarp/portfolio"
       },
       {
         "title": "Hex Guess",
         "category": "A react app to test how well you can identify the hex of a color",
-        "image": "hexGuess.png",
+        "image": "hexGuess.webp",
         "url": "https://yonahkarp.github.io/HexGuess/",
         "github": "https://github.com/YonahKarp/HexGuess"
       },
       {
         "title": "Smartspeedr",
         "category": " Chrome extension providing overcast-like smartspeed to speed up silences.",
-        "image": "smartspeedr.png",
+        "image": "smartspeedr.webp",
         "url": "https://chrome.google.com/webstore/detail/smartspeedr/kifdifbjpepmmjaokengbdjddbofpfmc",
         "github": "https://github.com/YonahKarp/smartspeedr"
 

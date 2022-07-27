@@ -4,6 +4,37 @@
     padding-bottom: 102px;
     color: #636363;
 
+    .iframeContainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        .hoverMsg{
+            opacity: 0;
+            z-index: 2;
+            position: absolute;
+            pointer-events: none;
+            border-radius: 10px;
+            padding: 20px;
+            width: 500px;
+            max-width: 92vw;
+            color: white;
+            background-color: #444;
+            will-change: opacity, transform;
+            text-align: center;
+
+            p{margin-bottom: 0;}
+            hr{margin-bottom: 15px;}
+
+            @media only screen and (max-width: 500px) {
+                font-size: 11px;
+            }
+        } 
+    }
+
     iframe {
         box-sizing: border-box;
         filter: invert(0.9) saturate(0.5) hue-rotate(145deg);
@@ -11,6 +42,29 @@
         margin: 0 auto 30px;
         width: 92vw;
         max-width: 1024px;
+
+        &.showMsg + .hoverMsg{
+            animation: showMessage 5s;
+        }
+    }
+
+    @keyframes showMessage {
+        0%{
+            opacity: 0;
+            transform: translateY(30px);}
+
+        20%{
+            opacity: .9;
+            transform: translateY(0);}
+
+        80%{
+            opacity: .9;
+            transform: translateY(0);}
+
+
+        100%{
+            opacity: 0;
+            transform: translateY(30px);}
     }
 
     .section-head {
