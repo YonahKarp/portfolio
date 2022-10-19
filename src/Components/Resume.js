@@ -1,78 +1,52 @@
-import React, {useRef, useState } from 'react';
-
-import useIsVisible from '../Hooks/UseIsVisible';
-import EduItem from './EduItem';
-import SkillItem from './SkillItem';
-import Timeline from './Timeline';
-import WorkItem from './WorkItem';
+import React, { Component } from 'react';
 
 import '../scss/Resume.scss'
 
+class Resume extends Component {
+  render() {
 
-const Resume = (props) =>{
-  const skillref = useRef();
-  const isSkillVisible = useIsVisible(skillref);
+    if(this.props.data){
+      var name = this.props.data.name;
+      var profilepic= "images/"+this.props.data.image;
+      var bio = this.props.data.bio;
+      var city = this.props.data.address.city;
+      var phone= this.props.data.phone;
+      var email = this.props.data.email;
+      var resumeDownload = this.props.data.resumedownload;
+    }
 
-  const [activeItem, setActiveItem] = useState('')
+    return (
+      <section id="resume">
+      <div className="row">
+         <div className="three columns">
+            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
+         </div>
+         <div className="nine columns main-col">
+            <h2>About Me</h2>
 
-
-  return (
-    <section id="resume">
-
-      <div className='timelineContainer'>
-        <Timeline {...props} setActiveItem={setActiveItem}/>
-
-        <div className="row work">
-
-            <div className="two columns header-col">
-              <h1><span>Work</span></h1>
+            <p>{bio}</p>
+            <div className="row">
+               <div className="columns contact-details">
+                  <h2>Contact Details</h2>
+                  <p className="address">
+						   <span>{name}</span><br />
+						   <span>{city}</span><br />
+						   <span>{phone}</span><br />
+                     <span>{email}</span>
+					   </p>
+               </div>
+               <div className="columns download">
+                  <p>
+                     <a href={resumeDownload} download='Yonah Karp resume.pdf' className="button"><i className="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
             </div>
-
-            <div className="ten columns main-col">
-            {props.data? props.data.work.map((workItem,i) => <WorkItem key={workItem.company + i}  {...workItem} activeItem={activeItem}/>): null}
-          </div>
-        </div>
-
-        <div className="row education">
-            <div className="two columns header-col">
-              <h1><span>Education</span></h1>
-            </div>
-
-            <div className="ten columns main-col">
-              <div className="row item">
-                  <div className="twelve columns">
-                    {props.data ? 
-                      props.data.education.map(eduItem => <EduItem key={eduItem.school}  {...eduItem} activeItem={activeItem}/>)
-                      : null
-                    }
-                  </div>
-              </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div className={"row skill" + (isSkillVisible ? ' anim' : '')} ref={skillref}>
-
-        <div className="two columns header-col">
-          <h1><span>Skills</span></h1>
-        </div>
-
-      <div className="ten columns main-col">
-        <p className='skillMessage'>{props.data.skillmessage}</p>
+         </div>
       </div>
-      <div className='skillsHolder'>
 
-        {props.data.skills.map((skillTypes) => <div className="bars" key={skillTypes.type}>
-          <h3>{skillTypes.type}</h3>
-          {skillTypes.list.map(skill => <SkillItem key={skill.name} {...skill}/>)}
-        </div>)}
-      </div>
-    </div>
-  </section>
-  );
+   </section>
+    );
+  }
 }
-
 
 export default Resume;
