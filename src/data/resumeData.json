@@ -4,7 +4,7 @@
     "occupation": "Software Developer",
     "description": "a Master's Degree in CS (specialization in AI/ML). I enjoy frontend work most, but I'm proficient across the full stack",
     "image": "profilepic.png",
-    "bio": "Software Developer with 6+ years professional experience. Genuinely enjoys programming, hard worker, fast and avid learner, capable and persistent problem solver, can synthesize information efficiently. Great teamwork and communication skills. Detail oriented with an eye for clean design.",
+    "bio": "Software Developer with 7+ years professional experience. Genuinely enjoys programming, hard worker, fast and avid learner, capable and persistent problem solver, can synthesize information efficiently. Great teamwork and communication skills. Detail oriented with an eye for clean design.",
     "contactmessage1": "Want to Schedule an interview?",
     "contactmessage2": "View availability below and connect",
     "email": "karp.yoni@gmail.com",
@@ -58,12 +58,28 @@
     ],
     "work": [
       {
+        "id": "Cadre",
+        "company": "Cadre",
+        "title": "Senior Full Stack Web Developer",
+        "location": "New York, NY",
+        "start": "October 2022",
+        "end": "Present",
+        "color": "#000000",
+        "description": [" Spearheaded the modernization of a web application using React/Redux to transform it into a sleek Single Page Application, enhancing the user experience.",
+          "Led as the Directly Responsible Individual (DRI) for the implementation of a new design system, orchestrating a comprehensive revamp of the web app's visual identity and user interface.",
+          "Seamlessly integrated a 3rd-party ID verification library, elevating the investment process by streamlining user interactions.",
+          "Engineered significant enhancements by restructuring inefficient API calls, resulting in reduced load times and an overall improved user experience.",
+          "Contributed to the full stack of the web app, creating three new pages and crafting dozens of reusable components to enhance functionality and efficiency."
+        ],
+        "image": "cadre.png"
+      },
+      {
         "id": "Amex_ML",
         "company": "American Express",
         "title": "Machine Learning Engineer",
         "location": "New York, NY",
         "start": "March 2022",
-        "end": "Present",
+        "end": "October 2022",
         "color": "#275AA1",
         "description": ["Developed infrastructure and models for AiDa, the company's internal ML platform",
           "Handled development, devops, and QA tasks in a fast paced, multi- time zone team",
@@ -154,13 +170,13 @@
           "icon": "scss.png"
         },
         {
-          "name": "Java",
-          "level": 50,
-          "icon": "java.png"
+          "name": "C#",
+          "level": 70,
+          "icon": "cSharp.png"
         },
         {
           "name": "SQL",
-          "level": 70,
+          "level": 65,
           "icon": "sql.png"
         }
       ]
@@ -189,9 +205,9 @@
           "icon": "rn.png"
         },
         {
-          "name": "Spring Boot",
-          "level": 45,
-          "icon": "spring.png"
+          "name": "Django",
+          "level": 70,
+          "icon": "django.png"
         },
         {
           "name": "REST APIs",
