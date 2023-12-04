@@ -222,8 +222,7 @@
       {
         "title": "Relaxful",
         "category": "An e-commerce shop I built for a client to sell pillows",
-        "image": "relaxful.webp",
-        "url": "https://yonahkarp.github.io/Relaxful-copy/"
+        "image": "relaxful.webp"
       },
       {
         "title": "un-Kinect",
@@ -235,7 +234,6 @@
         "title": "React Weather",
         "category": "A nice weather application built in React using the Dark Sky api",
         "image": "weather.webp",
-        "url": "https://yonahkarp.github.io/React-Weather/",
         "github": "https://github.com/YonahKarp/React-Weather"
       },{
         "title": "Portfolio",
@@ -247,7 +245,6 @@
         "title": "Hex Guess",
         "category": "A react app to test how well you can identify the hex of a color",
         "image": "hexGuess.webp",
-        "url": "https://yonahkarp.github.io/HexGuess/",
         "github": "https://github.com/YonahKarp/HexGuess"
       },
       {

@@ -9,7 +9,7 @@ const EduItem = (eduItem) =>{
     const isVisible = useIsVisible(ref);
 
     return <div className='perspective' id={eduItem.id}>
-        <div ref={ref} className={'educationItem ' + (isVisible ? 'anim' :'') + (eduItem.activeItem == eduItem.id ? ' active' :'')}
+        <div ref={ref} className={'educationItem ' + (isVisible ? 'anim' :'') + (eduItem.activeItem === eduItem.id ? ' active' :'')}
                 style={{borderTop: `3px solid ${eduItem.color}`}}
 
         >

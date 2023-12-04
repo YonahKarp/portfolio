@@ -9,7 +9,7 @@ const WorkItem = (workItem) =>{
     const isVisible = useIsVisible(ref);
 
     return <div className='perspective' id={workItem.id}>
-        <div ref={ref} className={'workItem ' + (isVisible ? 'anim' :'') + (workItem.activeItem == workItem.id ? ' active' :'')} 
+        <div ref={ref} className={'workItem ' + (isVisible ? 'anim' :'') + (workItem.activeItem === workItem.id ? ' active' :'')} 
         style={{borderTop: `3px solid ${workItem.color}`}}
         >
             <h3>{workItem.title}</h3>
