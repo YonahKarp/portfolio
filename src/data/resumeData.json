@@ -4,7 +4,7 @@
     "occupation": "Software Developer",
     "description": "a Master's Degree in CS (specialization in AI/ML). I enjoy frontend work most, but I'm proficient across the full stack",
     "image": "profilepic.png",
-    "bio": "Software Developer with 7+ years professional experience. Genuinely enjoys programming, hard worker, fast and avid learner, capable and persistent problem solver, can synthesize information efficiently. Great teamwork and communication skills. Detail oriented with an eye for clean design.",
+    "bio": "Software Developer with 9+ years professional experience. Genuinely enjoys programming, hard worker, fast and avid learner, capable and persistent problem solver, can synthesize information efficiently. Great teamwork and communication skills. Detail oriented with an eye for clean design.",
     "contactmessage1": "Want to Schedule an interview?",
     "contactmessage2": "View availability below and connect",
     "email": "karp.yoni@gmail.com",
@@ -58,12 +58,23 @@
     ],
     "work": [
       {
+        "id": "Meta",
+        "company": "Meta",
+        "title": "Product Generalist Developer",
+        "location": "New York, NY",
+        "start": "February 2024",
+        "end": "Present",
+        "color": "#0080FB",
+        "description": ["Worked on AR Glasses team creating base components for device UX"],
+        "image": "meta.png"
+      },
+      {
         "id": "Cadre",
         "company": "Cadre",
         "title": "Senior Full Stack Web Developer",
         "location": "New York, NY",
         "start": "October 2022",
-        "end": "Present",
+        "end": "February 2024",
         "color": "#000000",
         "description": [" Spearheaded the modernization of a web application using React/Redux to transform it into a sleek Single Page Application, enhancing the user experience.",
           "Led as the Directly Responsible Individual (DRI) for the implementation of a new design system, orchestrating a comprehensive revamp of the web app's visual identity and user interface.",
@@ -188,7 +199,7 @@
           "level": 90,
           "icon": "react.png"
         },
-       
+
         {
           "name": "Angular",
           "level": 60,
@@ -255,8 +266,8 @@
         "github": "https://github.com/YonahKarp/smartspeedr"
 
       }
-      
-      
+
+
     ]
   },
   "testimonials": {
