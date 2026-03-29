@@ -60,7 +60,7 @@
       {
         "id": "Meta",
         "company": "Meta",
-        "title": "Product Generalist Developer",
+        "title": "Senior Developer",
         "location": "New York, NY",
         "start": "February 2024",
         "end": "Present",
@@ -231,15 +231,16 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Relaxful",
-        "category": "An e-commerce shop I built for a client to sell pillows",
-        "image": "relaxful.webp"
+        "title": "JustType Leaf",
+        "category": "My hardware startup - an affordable distraction free writing device.",
+        "image": "justType.png",
+        "url": "justTypeLeaf.com",
+        "github": "https://github.com/YonahKarp/cppEditLVGL"
       },
       {
         "title": "un-Kinect",
         "category": "A kinect like movement system for controlling games using webcam and body motion",
-        "image": "unkinect.webp",
-        "github": "https://github.com/YonahKarp/pyMove"
+        "image": "unkinect.webp"
       },
       {
         "title": "React Weather",
